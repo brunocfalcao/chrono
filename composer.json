@@ -1,0 +1,32 @@
+{
+    "name": "brunocfalcao/chrono",
+    "description": "Codebase execution time measurament, for Laravel apps",
+    "keywords": [
+        "brunocfalcao",
+        "php"
+    ],
+    "homepage": "https://github.com/brunocfalcao/chrono",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Bruno Falcão",
+            "email": "bruno.c.falcao@brunofalcao.me",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^9.0",
+        "brunocfalcao/cerebrus": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brunocfalcao\\Chrono\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
